@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 10-ene-2020 16:42:18 by Hibernate Tools 5.4.7.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class catalog="biblio" dynamic-insert="false" dynamic-update="false" mutable="true" name="biblioteca.Persona" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="persona">
+        <id name="dni" type="java.lang.Integer">
+            <column name="DNI"/>
+            <generator class="identity"/>
+        </id>
+        <property generated="never" lazy="false" name="nomPersona" optimistic-lock="true" type="string" unique="false">
+            <column name="Nom_Persona" not-null="true"/>
+        </property>
+        <property generated="never" lazy="false" name="telefon" optimistic-lock="true" type="java.lang.Integer" unique="false">
+            <column name="Telefon"/>
+        </property>
+    </class>
+</hibernate-mapping>
