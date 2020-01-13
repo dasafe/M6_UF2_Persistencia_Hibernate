@@ -5,13 +5,11 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>M6_UF2_Persistencia</name>
      <dependencies>
-        <!-- Hibernate 4.3.6 Final -->
 		<dependency>
 		    <groupId>org.hibernate</groupId>
 		    <artifactId>hibernate-core</artifactId>
 		    <version>5.4.10.Final</version>
 		</dependency>
-		        <!-- Mysql Connector -->
 		<dependency>
 		    <groupId>mysql</groupId>
 		    <artifactId>mysql-connector-java</artifactId>
